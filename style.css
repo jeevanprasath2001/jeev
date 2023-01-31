@@ -1,0 +1,33 @@
+html,body{
+    margin: 0;
+}
+
+.sidebar{
+    background: linear-gradient(45deg,deeppink,lightblue);
+    float: left;
+    width: 250px;
+    height: 100vh;/*  it is used to make full height */
+    /*box-shadow: ;*/
+}
+.sidebar a{
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    padding: 20px 25px;
+}
+.sidebar a:hover{
+    background: linear-gradient(45deg,red,blue);
+    border-radius: 50px;
+    box-shadow: 0 0 5px black;
+}
+
+.sidebar img{
+    height: 150px;
+    width: 150px;
+    border: 10px solid blue;
+    margin: 20px auto;
+    display: block;
+    border-radius: 250px;
+}
